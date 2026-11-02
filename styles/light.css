@@ -4,7 +4,6 @@
   переключая тему
 */
 
-/* Принудительная светлая тема */
 :root.theme-light {
   --bg-color: #fff1f7;
   --accent-color: #ff8dcb;
