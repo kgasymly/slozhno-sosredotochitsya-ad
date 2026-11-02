@@ -5,12 +5,18 @@
 */
 
 :root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --bg-color: #000028;
+  --accent-color: #ff0070;
+  --text-color: #f1b2ce;
+  --title-color: #db00ff;
+  --section-title-color: #ff0070;
+  --button-color: #ff0070;
+  --button-hover-border: rgba(255, 0, 112, 0.4);
+  --decor-color: #ff0070;
+  --header-bg: url('../images/cover-image-dark.png');
 }
 
-.theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+/* В темной теме REC виден */
+.theme-dark .header__rec {
+  display: flex;
 }
